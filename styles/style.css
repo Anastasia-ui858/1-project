@@ -1,0 +1,418 @@
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+
+body{
+    margin: 0;
+    padding: 20px 150px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.hru{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+.new{
+    gap:20px;
+}
+.sing{
+    color: rgb(71, 109, 186);
+    background-color: white;
+    border: none;
+}
+.book{
+    color: white;
+    background-color:rgb(71, 109, 186) ;
+    border: none;
+    padding: 10px;
+}
+.demo{
+    color: white;
+    background-color:rgb(71, 109, 186) ;
+    border: none;
+    padding: 10px;
+}
+.learn{
+    color:rgb(71, 109, 186);
+}
+.image{
+    margin-left: 180px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    
+}
+.block1{
+
+    align-items: center;
+    justify-content: center;
+}
+.image{
+
+    align-items: center;
+    justify-content: center;
+}
+.trusted{
+    margin-bottom: 100px;
+    margin-left: 630px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+    
+}
+.links{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    color: rgb(131, 129, 129);
+    margin-left: 490px;
+    margin-bottom: 100px;
+}
+.tables{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+
+}
+.tabl{
+    background-color: yellow;
+    padding: 20px;
+}
+.tabl_2{
+    background-color: rgb(176, 215, 247);
+    padding: 20px;
+}
+
+    
+.tabl_3{
+    background: rgb(247, 208, 214);
+    padding: 20px;
+}
+.anti{
+    margin-top: 100px;
+    list-style-type: none;
+}
+.comp{
+    margin-left: 250px;
+}
+
+.loss{
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    padding: 80 100px;
+}
+.block_4{
+    display: flex;
+    
+    margin-top: 140px;
+}
+.obj{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+    gap: 50px;
+    margin-left: 150px;
+}
+.set{
+    margin-left: 100px;
+    margin-top: 160px;
+}
+.smarter{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.posts{
+    margin-top: 50px;
+    color: rgb(71, 109, 186);
+}
+.mainBlock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 100px;
+}
+.improvements{
+    
+}
+
+
+
+/* 
+
+
+
+.my_class{
+    color: rgb(42, 45, 45);
+    font-size: 20px;
+}
+.class_2 {
+    font-size: 40px;
+}
+
+.class_3{
+    display: inline;
+}
+.new{
+    display: flex;
+    justify-content: flex-end;
+    word-spacing: 5px;
+    margin-top: -33px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0 200px;
+    background-color: rgb(255, 255, 255);
+    border: none;}
+
+.but_1{
+    border: none;
+    background-color: white;
+    color: rgb(98, 157, 213);
+}
+.but_2{
+    border: none;
+    color: white;
+    width: 8em;
+    height: 2em;
+    background-color: rgb(54, 146, 203);
+}
+
+
+.new_2{
+    display: flex;
+    justify-content: center;
+}
+.companies{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    margin-right: 100px;
+    
+
+
+}
+
+.hru{
+    display: flex;
+    word-spacing: 20px;
+    margin-top: -27px;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 200px;
+    list-style-type: none;
+   
+    
+
+
+}
+.everyday{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.bt{
+    position: relative;
+    left: 100px;
+}
+
+.button_demo{
+    
+    background-color: rgb(54, 146, 203);
+    width: 10em;
+    height: 3em;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.button_learn{
+    background-color: rgb(255, 255, 255);
+    width: 10em;
+    height: 3em;
+    border: none;
+    font-size: 15px;
+    color: rgb(54, 146, 203);
+}
+.buttons{
+    position: relative;
+    top: 270px;
+    right: 330px;
+
+}
+.trusted{
+    position: absolute;
+    top: 700px;
+    left: 40%;
+    
+}
+.focus{
+    display: flex;
+    position: absolute;
+    top: 760px;
+    left: 30%;
+    list-style-type: none;
+    gap: 60px;
+    color: grey;
+    font-size: 20px;
+}
+.tabl{
+    
+    position: absolute;
+    top:900px;
+    background-color: rgb(252, 252, 151);
+    padding: 20px; 
+
+}
+.tabl_2{
+    position: absolute;
+    top:900px;
+    background-color: rgb(180, 248, 242);
+    padding: 20px; 
+    left:40%
+}
+.tabl_3{
+    position: absolute;
+    top:900px;
+    background-color: rgb(248, 200, 234);
+    padding: 20px; 
+    left:73%
+}
+body{
+    padding: 20px;
+}
+.will{
+    position: absolute;
+    top:1200px;
+}
+.anti {
+    position: absolute;
+    top:1300px;
+    list-style-type: none;
+    color: rgb(64, 63, 63);
+    
+}
+.img_2{
+    position: absolute;
+    top:1200px;
+    left:800px;
+    
+    
+}
+
+.obz{
+    position: absolute;
+    top:1700px;
+}
+.all{
+    position: absolute;
+    top:1750px;
+    left:500px;
+}
+.get{
+    position: absolute;
+    top:1750px;
+    left:800px;
+}
+.safe{
+    position: absolute;
+    top:1750px;
+    left:1100px;
+}
+.set{
+    position: absolute;
+    display: flex;
+    top:2000px;
+    right: 0px;
+}
+.daily{
+    position: absolute;
+    top:1720px;
+    left: 800px;
+}
+.safe_2{
+    position: absolute;
+    top:1720px;
+    left: 1100px;
+    
+}
+.tasks{
+    position: absolute;
+    top:2600px;
+    font-size: 20px;
+}
+.lorem{
+    position: absolute;
+    top:2800px;
+}
+.stay{
+    position: absolute;
+    top:2800px;
+    left:450px
+}
+.automate{
+    position: absolute;
+    top:2800px;
+    left:770px
+}
+.stay_2{
+    position: absolute;
+    top:2800px;
+    left:1100px
+}
+.photo_1{
+    position: absolute;
+    top:2760px;
+
+}
+.photo_2{
+    position: absolute;
+    left: 450px;
+    top:2760px;
+}
+.photo_3{
+    position: absolute;
+    top:2760px;
+    left:755px
+}
+.photo_4{
+    position: absolute;
+    top:2760px;
+    left:1100px
+}
+.getsm{
+    position: absolute;
+    top:3000px;
+    right: 940px;
+    
+}
+.smarter{
+    
+}
+.posts{
+    position: absolute;
+    top:3035px;
+    right: 155px;
+    color: rgb(92, 135, 200);
+}
+.Automating{
+ 
+    
+}
+
+.mainBlock{
+    height: 500px;
+    display: flex;
+} */
